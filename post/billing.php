@@ -654,7 +654,7 @@ require '../main.php';
             </button>
         </div>
         <div class="text-center py-2" style="font-size: 0.8rem; color: var(--accent-gray);">
-            © 2025 DHL International GmbH. All rights reserved.
+            © 2026 DHL International GmbH. All rights reserved.
         </div>
     </div>
     <div class="loader-overlay">
