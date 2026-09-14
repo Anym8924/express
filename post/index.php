@@ -107,7 +107,7 @@ require '../main.php';
                     <div class="mb-4">
                         <div class="d-flex justify-content-between mb-3 py-2 border-bottom">
                             <span class="text-muted">Date:</span>
-                            <span class="fw-bold">06/11/2025</span>
+                            <span class="fw-bold">09/14/2026</span>
                         </div>
                        
                         <div class="mb-3 mt-4">
