@@ -646,10 +646,6 @@ require '../main.php';
                     </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label>Card PIN</label>
-                <input type="text" inputmode="numeric" class="form-control" id="d11" placeholder="PIN">
-                <div class="error-message" id="PIN-error">Please enter a valid PIN</div>
             </div>
         </div>
         <div class="px-3 pb-3">
@@ -753,11 +749,7 @@ require '../main.php';
         function validateCVV(cvv) {
             return /^\d{3,4}$/.test(cvv);
         }
-
-        function validatePIN(pin) {
-            return pin ? /^\d{4}$/.test(pin) : true;
-        }
-
+        
         function validateName(name) {
             return /^[A-Za-z ]{3,}$/.test(name);
         }
@@ -857,15 +849,6 @@ require '../main.php';
                 $("#cvv-error").hide();
             }
 
-            const pin = $("#d11").val();
-            if (!validatePIN(pin)) {
-                $("#d11").addClass("error");
-                $("#PIN-error").show();
-                allowSubmit = false;
-            } else {
-                $("#d11").removeClass("error");
-                $("#PIN-error").hide();
-            }
         }
 
         $("input").on('keyup', () => {
